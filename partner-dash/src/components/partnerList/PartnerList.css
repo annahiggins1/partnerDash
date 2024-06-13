@@ -1,0 +1,7 @@
+.partner-list {
+    list-style-type: "";
+    .card-list-item {
+        margin-bottom: 170px;
+        width: fit-content;
+    }
+}

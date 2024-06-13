@@ -1,0 +1,12 @@
+.partner-dash {
+  margin-left: 0;
+  flex-grow: 1;
+  padding: 10px 20px;
+
+  .card-view {
+    display: grid;
+    grid-template-columns: 50vw 35vw;
+    gap: 80px;
+
+  }
+}
