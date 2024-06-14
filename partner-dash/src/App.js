@@ -1,6 +1,5 @@
 import './App.css';
-import * as utils from './utils'
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import DetailCard from "./components/card/DetailCard"
 import PartnerList from './components/partnerList/PartnerList';
 import Header from './components/header/Header';

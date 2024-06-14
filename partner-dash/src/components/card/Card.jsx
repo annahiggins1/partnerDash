@@ -1,5 +1,4 @@
 import './Card.css';
-import { supabase } from '../../supabase.js'
 
 function Card({ id, name, description, logo, active, onMouseEnter, onMouseLeave, handleDelete }) {
   
