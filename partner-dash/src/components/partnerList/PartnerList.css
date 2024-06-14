@@ -1,7 +1,32 @@
-.partner-list {
-    list-style-type: "";
-    .card-list-item {
-        margin-bottom: 170px;
-        width: fit-content;
+.partners-wrapper {
+    .partner-list {
+        list-style-type: "";
+
+        .card-list-item {
+            margin-bottom: 170px;
+            width: fit-content;
+        }
+    }
+
+    .add-new-card-button {
+        width: 150px;
+        height: 40px;
+
+        background: #55b343;
+        border-radius: 15px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 130%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #FFFFFF;
+        margin-left: 30px;
+    }
+
+    .form-wrapper {
+        margin-left: 30px;
     }
 }

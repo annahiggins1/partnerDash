@@ -59,7 +59,7 @@ function PartnerList({ onCardHover }) {
                     </li>
                 ))}
             </ul>
-            <button onClick={() => setFormVisible(!isFormVisible)}>Add New Card</button>
+            <button className="add-new-card-button" onClick={() => setFormVisible(!isFormVisible)}>Add New Card</button>
             {isFormVisible &&
                 <AddCardForm
                     handleOnSubmit={handleOnSubmit}
